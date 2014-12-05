@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="560px" height="560px" viewBox="0 0 560 560" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: bin/sketchtool 1.3 (252) - http://www.bohemiancoding.com/sketch -->
+    <title>p-nodejs</title>
+    <desc>Created with bin/sketchtool.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="p-nodejs" sketch:type="MSArtboardGroup" fill="#000000">
+            <g id="Empty" sketch:type="MSLayerGroup" transform="translate(40.000000, 40.000000)">
+                <path d="M0.50745234,0.473012132 L479.267106,0.473012132 L479.267106,479.232666 L0.50745234,479.232666 L0.50745234,0.473012132 L0.50745234,0.473012132 Z M10.9360139,10.9019064 L468.838544,10.9019064 L468.838544,468.804437 L10.9360139,468.804437 L10.9360139,10.9019064 L10.9360139,10.9019064 Z M239.886863,247.939549 L87.7642981,400.062114 L79.6774461,391.975262 L231.800011,239.852697 L79.6774461,87.7301324 L87.7642981,79.6432804 L239.886863,231.765845 L392.009428,79.6432804 L400.09628,87.7301324 L247.973715,239.852697 L400.09628,391.975262 L392.009428,400.062114 L239.886863,247.939549 L239.886863,247.939549 Z" id="Shape" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

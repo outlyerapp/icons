@@ -1,0 +1,218 @@
+/*!
+ *  DL-Icons v0.0.0
+ *  (c) Dataloop.IO - http://dataloop.github.io/icons/
+ */
+
+@font-face {
+  font-family: "DL-Icons";
+  src: url('@{dl-icons-font-path}DL-Icons.eot');
+  src: url('@{dl-icons-font-path}DL-Icons.eot?#iefix') format('eot'),
+       url('@{dl-icons-font-path}DL-Icons.woff') format('woff'),
+       url('@{dl-icons-font-path}DL-Icons.ttf') format('truetype'),
+       url('@{dl-icons-font-path}DL-Icons.svg#DL-Icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.di {
+  display: inline-block;
+  font: normal normal normal 14px/1 "DL-Icons";
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.di-lg {
+  font-size: 1.33333333em;
+  line-height: 0.75em;
+  vertical-align: -15%;
+}
+.di-2x {
+  font-size: 2em;
+}
+.di-3x {
+  font-size: 3em;
+}
+.di-4x {
+  font-size: 4em;
+}
+.di-5x {
+  font-size: 5em;
+}
+.di-fw {
+  width: 1.28571429em;
+  text-align: center;
+}
+.di-ul {
+  padding-left: 0;
+  margin-left: 2.14285714em;
+  list-style-type: none;
+}
+.di-ul > li {
+  position: relative;
+}
+.di-li {
+  position: absolute;
+  left: -2.14285714em;
+  width: 2.14285714em;
+  top: 0.14285714em;
+  text-align: center;
+}
+.di-li.di-lg {
+  left: -1.85714286em;
+}
+.di-border {
+  padding: .2em .25em .15em;
+  border: solid 0.08em @dl-icons-border;
+  border-radius: .1em;
+}
+.pull-right {
+  float: right;
+}
+.pull-left {
+  float: left;
+}
+.di.pull-left {
+  margin-right: .3em;
+}
+.di.pull-right {
+  margin-left: .3em;
+}
+.di-spin {
+  -webkit-animation: di-spin 2s infinite linear;
+  animation: di-spin 2s infinite linear;
+}
+@-webkit-keyframes di-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes di-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+.di-rotate-90 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.di-rotate-180 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.di-rotate-270 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+.di-flip-horizontal {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1);
+  -webkit-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+.di-flip-vertical {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);
+  -webkit-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  transform: scale(1, -1);
+}
+:root .di-rotate-90,
+:root .di-rotate-180,
+:root .di-rotate-270,
+:root .di-flip-horizontal,
+:root .di-flip-vertical {
+  filter: none;
+}
+.di-stack {
+  position: relative;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  vertical-align: middle;
+}
+.di-stack-1x,
+.di-stack-2x {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+.di-stack-1x {
+  line-height: inherit;
+}
+.di-stack-2x {
+  font-size: 2em;
+}
+.di-inverse {
+  color: @dl-icons-inverse;
+}
+
+.di-a-apple:before { content: @dl-icons-var-a-apple; }
+.di-a-default:before { content: @dl-icons-var-a-default; }
+.di-a-docker:before { content: @dl-icons-var-a-docker; }
+.di-a-freebsd:before { content: @dl-icons-var-a-freebsd; }
+.di-a-graphite:before { content: @dl-icons-var-a-graphite; }
+.di-a-linux:before { content: @dl-icons-var-a-linux; }
+.di-a-smartos:before { content: @dl-icons-var-a-smartos; }
+.di-a-statsd:before { content: @dl-icons-var-a-statsd; }
+.di-a-windows:before { content: @dl-icons-var-a-windows; }
+.di-p-alertme:before { content: @dl-icons-var-p-alertme; }
+.di-p-amqp:before { content: @dl-icons-var-p-amqp; }
+.di-p-apache:before { content: @dl-icons-var-p-apache; }
+.di-p-base:before { content: @dl-icons-var-p-base; }
+.di-p-cloudwatch:before { content: @dl-icons-var-p-cloudwatch; }
+.di-p-couchbase:before { content: @dl-icons-var-p-couchbase; }
+.di-p-ec2:before { content: @dl-icons-var-p-ec2; }
+.di-p-elasticsearch:before { content: @dl-icons-var-p-elasticsearch; }
+.di-p-filecount:before { content: @dl-icons-var-p-filecount; }
+.di-p-git:before { content: @dl-icons-var-p-git; }
+.di-p-graphite:before { content: @dl-icons-var-p-graphite; }
+.di-p-haproxy:before { content: @dl-icons-var-p-haproxy; }
+.di-p-jenkins:before { content: @dl-icons-var-p-jenkins; }
+.di-p-logstash:before { content: @dl-icons-var-p-logstash; }
+.di-p-memcache:before { content: @dl-icons-var-p-memcache; }
+.di-p-mongodb:before { content: @dl-icons-var-p-mongodb; }
+.di-p-mqtt:before { content: @dl-icons-var-p-mqtt; }
+.di-p-mysql:before { content: @dl-icons-var-p-mysql; }
+.di-p-nginx:before { content: @dl-icons-var-p-nginx; }
+.di-p-nodejs:before { content: @dl-icons-var-p-nodejs; }
+.di-p-pagespeed:before { content: @dl-icons-var-p-pagespeed; }
+.di-p-ping:before { content: @dl-icons-var-p-ping; }
+.di-p-pm2:before { content: @dl-icons-var-p-pm2; }
+.di-p-postgres:before { content: @dl-icons-var-p-postgres; }
+.di-p-process:before { content: @dl-icons-var-p-process; }
+.di-p-procmem:before { content: @dl-icons-var-p-procmem; }
+.di-p-puppet:before { content: @dl-icons-var-p-puppet; }
+.di-p-rabbitmq:before { content: @dl-icons-var-p-rabbitmq; }
+.di-p-redis:before { content: @dl-icons-var-p-redis; }
+.di-p-resque:before { content: @dl-icons-var-p-resque; }
+.di-p-riak:before { content: @dl-icons-var-p-riak; }
+.di-p-salesforce:before { content: @dl-icons-var-p-salesforce; }
+.di-p-salt:before { content: @dl-icons-var-p-salt; }
+.di-p-service:before { content: @dl-icons-var-p-service; }
+.di-p-smb:before { content: @dl-icons-var-p-smb; }
+.di-p-solr:before { content: @dl-icons-var-p-solr; }
+.di-p-sslcert:before { content: @dl-icons-var-p-sslcert; }
+.di-p-statsd:before { content: @dl-icons-var-p-statsd; }
+.di-p-supervisor:before { content: @dl-icons-var-p-supervisor; }
+.di-p-vcenter:before { content: @dl-icons-var-p-vcenter; }
+.di-p-website:before { content: @dl-icons-var-p-website; }
+.di-p-wordpress:before { content: @dl-icons-var-p-wordpress; }

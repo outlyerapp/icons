@@ -1,0 +1,10 @@
+//
+// Variables
+//
+
+@<%= fontNameLower %>-font-path: '<%= fontPath %>';
+@<%= fontNameLower %>-border: #eeeeee;
+@<%= fontNameLower %>-inverse: #ffffff;
+
+<% _.each(glyphs, function(glyph) { %>@<%= fontNameLower %>-var-<%= glyph.name %>: "\<%= glyph.codepoint.toString(16).toUpperCase() %>";
+<% }); %>
