@@ -2,6 +2,9 @@
 
 A collection of icons for [**Dataloop.IO**](https://www.dataloop.io/).
 
+See the font sheet at [**dataloop.github.io/icons**](http://dataloop.github.io/icons).
+
+
 ## Development
 
 ### Requirements

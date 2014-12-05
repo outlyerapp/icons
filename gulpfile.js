@@ -1,4 +1,3 @@
-var path = require('path');
 var gulp = require('gulp');
 var less = require('gulp-less');
 var concat = require('gulp-concat');
