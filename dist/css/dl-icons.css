@@ -1,5 +1,5 @@
 /*!
- *  DL-Icons v0.0.0
+ *  DL-Icons v0.1.0
  *  (c) Dataloop.IO - http://dataloop.github.io/icons/
  */
 @font-face {
@@ -158,156 +158,150 @@
 .di-inverse {
   color: #ffffff;
 }
-.di-a-apple:before {
+.di-alertme:before {
   content: "\E001";
 }
-.di-a-default:before {
+.di-amqp:before {
   content: "\E002";
 }
-.di-a-docker:before {
+.di-apache:before {
   content: "\E003";
 }
-.di-a-freebsd:before {
+.di-apple:before {
   content: "\E004";
 }
-.di-a-graphite:before {
+.di-base:before {
   content: "\E005";
 }
-.di-a-linux:before {
+.di-cloudwatch:before {
   content: "\E006";
 }
-.di-a-smartos:before {
+.di-couchbase:before {
   content: "\E007";
 }
-.di-a-statsd:before {
+.di-default:before {
   content: "\E008";
 }
-.di-a-windows:before {
+.di-docker:before {
   content: "\E009";
 }
-.di-p-alertme:before {
+.di-ec2:before {
   content: "\E00A";
 }
-.di-p-amqp:before {
+.di-elasticsearch:before {
   content: "\E00B";
 }
-.di-p-apache:before {
+.di-filecount:before {
   content: "\E00C";
 }
-.di-p-base:before {
+.di-freebsd:before {
   content: "\E00D";
 }
-.di-p-cloudwatch:before {
+.di-git:before {
   content: "\E00E";
 }
-.di-p-couchbase:before {
+.di-graphite:before {
   content: "\E00F";
 }
-.di-p-ec2:before {
+.di-haproxy:before {
   content: "\E010";
 }
-.di-p-elasticsearch:before {
+.di-jenkins:before {
   content: "\E011";
 }
-.di-p-filecount:before {
+.di-linux:before {
   content: "\E012";
 }
-.di-p-git:before {
+.di-logstash:before {
   content: "\E013";
 }
-.di-p-graphite:before {
+.di-memcache:before {
   content: "\E014";
 }
-.di-p-haproxy:before {
+.di-mongodb:before {
   content: "\E015";
 }
-.di-p-jenkins:before {
+.di-mqtt:before {
   content: "\E016";
 }
-.di-p-logstash:before {
+.di-mysql:before {
   content: "\E017";
 }
-.di-p-memcache:before {
+.di-nginx:before {
   content: "\E018";
 }
-.di-p-mongodb:before {
+.di-nodejs:before {
   content: "\E019";
 }
-.di-p-mqtt:before {
+.di-pagespeed:before {
   content: "\E01A";
 }
-.di-p-mysql:before {
+.di-ping:before {
   content: "\E01B";
 }
-.di-p-nginx:before {
+.di-pm2:before {
   content: "\E01C";
 }
-.di-p-nodejs:before {
+.di-postgres:before {
   content: "\E01D";
 }
-.di-p-pagespeed:before {
+.di-process:before {
   content: "\E01E";
 }
-.di-p-ping:before {
+.di-procmem:before {
   content: "\E01F";
 }
-.di-p-pm2:before {
+.di-puppet:before {
   content: "\E020";
 }
-.di-p-postgres:before {
+.di-rabbitmq:before {
   content: "\E021";
 }
-.di-p-process:before {
+.di-redis:before {
   content: "\E022";
 }
-.di-p-procmem:before {
+.di-resque:before {
   content: "\E023";
 }
-.di-p-puppet:before {
+.di-riak:before {
   content: "\E024";
 }
-.di-p-rabbitmq:before {
+.di-salesforce:before {
   content: "\E025";
 }
-.di-p-redis:before {
+.di-salt:before {
   content: "\E026";
 }
-.di-p-resque:before {
+.di-service:before {
   content: "\E027";
 }
-.di-p-riak:before {
+.di-smartos:before {
   content: "\E028";
 }
-.di-p-salesforce:before {
+.di-smb:before {
   content: "\E029";
 }
-.di-p-salt:before {
+.di-solr:before {
   content: "\E02A";
 }
-.di-p-service:before {
+.di-sslcert:before {
   content: "\E02B";
 }
-.di-p-smb:before {
+.di-statsd:before {
   content: "\E02C";
 }
-.di-p-solr:before {
+.di-supervisor:before {
   content: "\E02D";
 }
-.di-p-sslcert:before {
+.di-vcenter:before {
   content: "\E02E";
 }
-.di-p-statsd:before {
+.di-website:before {
   content: "\E02F";
 }
-.di-p-supervisor:before {
+.di-windows:before {
   content: "\E030";
 }
-.di-p-vcenter:before {
+.di-wordpress:before {
   content: "\E031";
-}
-.di-p-website:before {
-  content: "\E032";
-}
-.di-p-wordpress:before {
-  content: "\E033";
 }

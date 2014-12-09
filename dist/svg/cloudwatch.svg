@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="560px" height="560px" viewBox="0 0 560 560" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: bin/sketchtool 1.3 (252) - http://www.bohemiancoding.com/sketch -->
+    <title>cloudwatch</title>
+    <desc>Created with bin/sketchtool.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="cloudwatch" sketch:type="MSArtboardGroup" fill="#000000">
+            <g id="Group" sketch:type="MSLayerGroup" transform="translate(85.000000, 40.000000)">
+                <path d="M0.3270563,411.814847 L390.170828,411.814847 L390.170828,479.5331 L0.3270563,479.5331 L0.3270563,411.814847 L0.3270563,411.814847 Z M374.268764,136.51179 L374.268764,390.548122 L289.791484,390.548122 L289.791484,136.51179 C302.561461,142.692692 316.891034,146.157935 332.030177,146.157935 C347.169319,146.157935 361.498893,142.692692 374.268869,136.51179 L374.268764,136.51179 Z M18.0331716,157.329956 L102.510451,157.329956 L102.510451,390.548122 L18.0331716,390.548122 L18.0331716,157.329956 L18.0331716,157.329956 Z M154.87793,198.277729 L239.35521,198.277729 L239.35521,390.548122 L154.87793,390.548122 L154.87793,198.277729 L154.87793,198.277729 Z M332.030282,0.788122271 C361.042691,0.788122271 384.561918,24.3023581 384.561918,53.3086114 C384.561918,82.3148646 361.042691,105.8291 332.030282,105.8291 C303.017872,105.8291 279.498645,82.3148646 279.498645,53.3086114 C279.498645,24.3023581 303.017872,0.788122271 332.030282,0.788122271 L332.030282,0.788122271 Z" id="Shape" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>
