@@ -4,7 +4,7 @@
 <defs>
   <font id="DL-Icons" horiz-adv-x="560">
     <font-face font-family="DL-Icons"
-      units-per-em="560" ascent="560"
+      units-per-em="460" ascent="460"
       descent="0" />
     <missing-glyph horiz-adv-x="0" />
     <glyph glyph-name="alertme"
