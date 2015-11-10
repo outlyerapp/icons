@@ -284,42 +284,45 @@
 .di-riak:before {
   content: "\E02A";
 }
-.di-salesforce:before {
+.di-rpi:before {
   content: "\E02B";
 }
-.di-salt:before {
+.di-salesforce:before {
   content: "\E02C";
 }
-.di-service:before {
+.di-salt:before {
   content: "\E02D";
 }
-.di-smartos:before {
+.di-service:before {
   content: "\E02E";
 }
-.di-smb:before {
+.di-smartos:before {
   content: "\E02F";
 }
-.di-solr:before {
+.di-smb:before {
   content: "\E030";
 }
-.di-sslcert:before {
+.di-solr:before {
   content: "\E031";
 }
-.di-statsd:before {
+.di-sslcert:before {
   content: "\E032";
 }
-.di-supervisor:before {
+.di-statsd:before {
   content: "\E033";
 }
-.di-vcenter:before {
+.di-supervisor:before {
   content: "\E034";
 }
-.di-website:before {
+.di-vcenter:before {
   content: "\E035";
 }
-.di-windows:before {
+.di-website:before {
   content: "\E036";
 }
-.di-wordpress:before {
+.di-windows:before {
   content: "\E037";
+}
+.di-wordpress:before {
+  content: "\E038";
 }
