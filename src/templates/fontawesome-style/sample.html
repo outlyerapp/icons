@@ -29,8 +29,8 @@
       .glyph > li {
         display: inline-block;
         margin: 0.6em;
-        width: 7.5em;
-        height: 7.5em;
+        width: 8em;
+        height: 8em;
         background: #fff;
         position: relative;
         -webkit-transition: all 0.05s ease;
@@ -59,20 +59,30 @@
       }
       .glyph > li .<%= className %> {
         display: block;
-        margin-top: 0.25em;
+        margin-top: 0.35em;
       }
       .glyph-name {
-        font-size: 0.7em;
+        font-size: 0.8em;
         color: #666;
         display: block; 
         font-weight: 600;
+        margin-bottom: -0.3em;
         margin-top: 0.6em;
+        white-space: nowrap;
+        -webkit-font-smoothing: antialiased;
+      }
+      .glyph-classname {
+        color: #ccc;
+        font-size: 0.5em;
+        display: inline-block; 
+        font-weight: 600;
+        margin-right: 0.5em;
         white-space: nowrap;
         -webkit-font-smoothing: antialiased;
       }
       .glyph-codepoint {
         color: #ccc;
-        font-size: 0.8em;
+        font-size: 0.5em;
         font-family: monospace;
       }
     </style>
@@ -82,7 +92,8 @@
     <ul class="glyph"><% _.each(glyphs, function(glyph) { %>
       <li>
         <i class="<%= className %> <%= className %>-<%= glyph.name %> <%= className %>-4x"></i>
-        <span class="glyph-name">.<%= className %>-<%= glyph.name %></span>
+        <span class="glyph-name"><%= glyph.name %></span>
+        <span class="glyph-classname">.<%= className %>-<%= glyph.name %></span>
         <span class="glyph-codepoint">\<%= glyph.codepoint.toString(16).toUpperCase() %></span>
       </li><% }); %>
     </ul>
