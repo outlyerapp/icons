@@ -1,5 +1,5 @@
 /*!
- *  DL-Icons v0.1.0
+ *  DL-Icons v0.2.0
  *  (c) Dataloop.IO - http://dataloop.github.io/icons/
  */
 @font-face {
@@ -161,147 +161,216 @@
 .di-alertme:before {
   content: "\E001";
 }
-.di-amqp:before {
+.di-amazon-rds:before {
   content: "\E002";
 }
-.di-apache:before {
+.di-amqp:before {
   content: "\E003";
 }
-.di-apple:before {
+.di-apache:before {
   content: "\E004";
 }
-.di-base:before {
+.di-apple:before {
   content: "\E005";
 }
-.di-cloudwatch:before {
+.di-arch:before {
   content: "\E006";
 }
-.di-couchbase:before {
+.di-aws:before {
   content: "\E007";
 }
-.di-default:before {
+.di-base:before {
   content: "\E008";
 }
-.di-docker:before {
+.di-centos:before {
   content: "\E009";
 }
-.di-ec2:before {
+.di-cloudwatch:before {
   content: "\E00A";
 }
-.di-elasticsearch:before {
+.di-couchbase:before {
   content: "\E00B";
 }
-.di-filecount:before {
+.di-debian:before {
   content: "\E00C";
 }
-.di-freebsd:before {
+.di-default:before {
   content: "\E00D";
 }
-.di-git:before {
+.di-docker:before {
   content: "\E00E";
 }
-.di-graphite:before {
+.di-dynamodb:before {
   content: "\E00F";
 }
-.di-haproxy:before {
+.di-ec2:before {
   content: "\E010";
 }
-.di-jenkins:before {
+.di-elastic-lb:before {
   content: "\E011";
 }
-.di-linux:before {
+.di-elasticache:before {
   content: "\E012";
 }
-.di-logstash:before {
+.di-elasticsearch:before {
   content: "\E013";
 }
-.di-memcache:before {
+.di-exchange:before {
   content: "\E014";
 }
-.di-mongodb:before {
+.di-filecount:before {
   content: "\E015";
 }
-.di-mqtt:before {
+.di-freebsd:before {
   content: "\E016";
 }
-.di-mysql:before {
+.di-git:before {
   content: "\E017";
 }
-.di-nginx:before {
+.di-graphite:before {
   content: "\E018";
 }
-.di-nodejs:before {
+.di-haproxy:before {
   content: "\E019";
 }
-.di-pagespeed:before {
+.di-iis:before {
   content: "\E01A";
 }
-.di-ping:before {
+.di-jenkins:before {
   content: "\E01B";
 }
-.di-pm2:before {
+.di-linux:before {
   content: "\E01C";
 }
-.di-postgres:before {
+.di-logo-1:before {
   content: "\E01D";
 }
-.di-process:before {
+.di-logo-2:before {
   content: "\E01E";
 }
-.di-procmem:before {
+.di-logo-loop-1:before {
   content: "\E01F";
 }
-.di-puppet:before {
+.di-logo-loop-2:before {
   content: "\E020";
 }
-.di-rabbitmq:before {
+.di-logo-loop:before {
   content: "\E021";
 }
-.di-redis:before {
+.di-logo:before {
   content: "\E022";
 }
-.di-resque:before {
+.di-logstash:before {
   content: "\E023";
 }
-.di-riak:before {
+.di-memcache:before {
   content: "\E024";
 }
-.di-salesforce:before {
+.di-mongodb:before {
   content: "\E025";
 }
-.di-salt:before {
+.di-mqtt:before {
   content: "\E026";
 }
-.di-service:before {
+.di-mssql:before {
   content: "\E027";
 }
-.di-smartos:before {
+.di-mysql:before {
   content: "\E028";
 }
-.di-smb:before {
+.di-nginx:before {
   content: "\E029";
 }
-.di-solr:before {
+.di-nodejs:before {
   content: "\E02A";
 }
-.di-sslcert:before {
+.di-pagespeed:before {
   content: "\E02B";
 }
-.di-statsd:before {
+.di-ping:before {
   content: "\E02C";
 }
-.di-supervisor:before {
+.di-pm2:before {
   content: "\E02D";
 }
-.di-vcenter:before {
+.di-postfix:before {
   content: "\E02E";
 }
-.di-website:before {
+.di-postgres:before {
   content: "\E02F";
 }
-.di-windows:before {
+.di-process:before {
   content: "\E030";
 }
-.di-wordpress:before {
+.di-procmem:before {
   content: "\E031";
+}
+.di-puppet:before {
+  content: "\E032";
+}
+.di-rabbitmq:before {
+  content: "\E033";
+}
+.di-redhat:before {
+  content: "\E034";
+}
+.di-redis:before {
+  content: "\E035";
+}
+.di-resque:before {
+  content: "\E036";
+}
+.di-riak:before {
+  content: "\E037";
+}
+.di-rpi:before {
+  content: "\E038";
+}
+.di-salesforce:before {
+  content: "\E039";
+}
+.di-salt:before {
+  content: "\E03A";
+}
+.di-service:before {
+  content: "\E03B";
+}
+.di-smartos:before {
+  content: "\E03C";
+}
+.di-smb:before {
+  content: "\E03D";
+}
+.di-solr:before {
+  content: "\E03E";
+}
+.di-sslcert:before {
+  content: "\E03F";
+}
+.di-statsd:before {
+  content: "\E040";
+}
+.di-supervisor:before {
+  content: "\E041";
+}
+.di-suse:before {
+  content: "\E042";
+}
+.di-ubuntu:before {
+  content: "\E043";
+}
+.di-varnish:before {
+  content: "\E044";
+}
+.di-vcenter:before {
+  content: "\E045";
+}
+.di-website:before {
+  content: "\E046";
+}
+.di-windows:before {
+  content: "\E047";
+}
+.di-wordpress:before {
+  content: "\E048";
 }

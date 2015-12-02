@@ -22,7 +22,9 @@ gulp.task('build', function () {
         }))
         .pipe(gulp.dest('dist/svg/'))
         .pipe(iconfont({
-            fontName: fontName
+            fontName: fontName,
+            fontHeight: 460,
+            fontWidth: 460
         }))
         .on('codepoints', function (codepoints) {
 
