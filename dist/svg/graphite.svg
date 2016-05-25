@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="560px" height="560px" viewBox="0 0 560 560" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
-    <!-- Generator: sketchtool 3.4 (375) - http://www.bohemiancoding.com/sketch -->
+<svg width="560px" height="560px" viewBox="0 0 560 560" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 3.8.2 (29753) - http://www.bohemiancoding.com/sketch -->
     <title>graphite</title>
     <desc>Created with sketchtool.</desc>
     <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="graphite" sketch:type="MSArtboardGroup" fill="#000000">
-            <g id="Group" sketch:type="MSLayerGroup" transform="translate(117.000000, 40.000000)">
-                <path d="M162.213418,479.731312 L150.410339,183.698659 L120.504504,390.615044 L87.8083315,182.010962 L0.910189641,182.010962 L0.910189641,164.518251 L102.809562,164.518251 L119.802046,272.931778 L159.145128,0.72 L160.661673,0.798363429 L174.098257,337.801745 L200.419442,212.419588 L325.028284,212.419588 L325.028284,229.912299 L214.657632,229.912299 C197.176134,313.185582 179.694776,396.458305 162.213278,479.732008 L162.213418,479.731312 Z" id="Shape" sketch:type="MSShapeGroup"></path>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="graphite" fill="#000000">
+            <g id="Group" transform="translate(117.000000, 40.000000)">
+                <path d="M162.213418,479.731312 L150.410339,183.698659 L120.504504,390.615044 L87.8083315,182.010962 L0.910189641,182.010962 L0.910189641,164.518251 L102.809562,164.518251 L119.802046,272.931778 L159.145128,0.72 L160.661673,0.798363429 L174.098257,337.801745 L200.419442,212.419588 L325.028284,212.419588 L325.028284,229.912299 L214.657632,229.912299 C197.176134,313.185582 179.694776,396.458305 162.213278,479.732008 L162.213418,479.731312 Z" id="Shape"></path>
             </g>
         </g>
     </g>

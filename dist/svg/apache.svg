@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="560px" height="560px" viewBox="0 0 560 560" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
-    <!-- Generator: sketchtool 3.4 (375) - http://www.bohemiancoding.com/sketch -->
+<svg width="560px" height="560px" viewBox="0 0 560 560" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 3.8.2 (29753) - http://www.bohemiancoding.com/sketch -->
     <title>apache</title>
     <desc>Created with sketchtool.</desc>
     <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="apache" sketch:type="MSArtboardGroup" fill="#000000">
-            <g id="Group" sketch:type="MSLayerGroup" transform="translate(91.000000, 40.000000)">
-                <g transform="translate(0.158706, 1.047549)" id="Shape" sketch:type="MSShapeGroup">
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="apache" fill="#000000">
+            <g id="Group" transform="translate(91.000000, 40.000000)">
+                <g transform="translate(0.158706, 1.047549)" id="Shape">
                     <path d="M20.6774955,348.417465 C19.0679925,336.499808 19.6434769,324.73707 21.8679616,313.176507 C29.9374638,316.853104 38.4035962,319.454417 38.4035962,319.454417 C38.4035962,319.454417 25.4346223,313.288885 26.0637116,296.945966 C37.6849513,260.894248 63.3678017,227.102248 85.9800584,197.077572 C116.085687,157.103206 165.979175,105.450642 215.062552,73.5615718 C323.96228,2.8104169 362.332308,-0.211723944 375.851948,2.09633239 C358.763786,16.0293296 339.77927,37.8015718 330.432013,49.9190366 C292.143707,99.5542479 256.697563,115.514924 256.671507,115.749515 C256.671507,115.749515 270.190335,113.783611 291.536292,103.025341 C244.458401,158.958693 202.861797,202.891369 165.412198,253.560101 C123.629479,310.091256 95.6613089,363.614299 85.2560669,375.604665 C68.4372651,394.985341 52.743958,393.729904 44.0741638,392.83413 C34.8626872,418.565679 27.3542573,448.797059 29.3607408,475.673341 C29.7546437,480.949572 19.069182,475.863494 16.8128968,463.518085 C13.6051525,445.966648 21.1281502,413.62107 30.4352228,384.667099 C23.960583,355.125465 0.0981339286,340.604282 0.0981339286,340.604282 C0.0981339286,340.604282 10.7480001,343.328231 20.6774955,348.417515 L20.6774955,348.417465 Z"></path>
                 </g>
             </g>
