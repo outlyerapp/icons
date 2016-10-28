@@ -1,10 +1,10 @@
 /*!
- *  DL-Icons v0.2.3
+ *  DL-Icons v0.3.0
  *  (c) Dataloop.IO - http://dataloop.github.io/icons/
  */
 
 @font-face {
-  font-family: "DL-Icons";
+  font-family: 'DL-Icons';
   src: url('@{dl-icons-font-path}DL-Icons.eot');
   src: url('@{dl-icons-font-path}DL-Icons.eot?#iefix') format('eot'),
        url('@{dl-icons-font-path}DL-Icons.woff') format('woff'),
@@ -15,12 +15,12 @@
 }
 
 .di {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
   display: inline-block;
-  font: normal normal normal 14px/1 "DL-Icons";
+  font: normal normal normal 14px/1 'DL-Icons';
   font-size: inherit;
   text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 .di-lg {
@@ -28,61 +28,77 @@
   line-height: 0.75em;
   vertical-align: -15%;
 }
+
 .di-2x {
   font-size: 2em;
 }
+
 .di-3x {
   font-size: 3em;
 }
+
 .di-4x {
   font-size: 4em;
 }
+
 .di-5x {
   font-size: 5em;
 }
+
 .di-fw {
-  width: 1.28571429em;
   text-align: center;
+  width: 1.28571429em;
 }
+
 .di-ul {
-  padding-left: 0;
-  margin-left: 2.14285714em;
   list-style-type: none;
+  margin-left: 2.14285714em;
+  padding-left: 0;
 }
+
 .di-ul > li {
   position: relative;
 }
+
 .di-li {
-  position: absolute;
   left: -2.14285714em;
-  width: 2.14285714em;
-  top: 0.14285714em;
+  position: absolute;
   text-align: center;
+  top: 0.14285714em;
+  width: 2.14285714em;
 }
+
 .di-li.di-lg {
   left: -1.85714286em;
 }
+
 .di-border {
-  padding: .2em .25em .15em;
   border: solid 0.08em @dl-icons-border;
-  border-radius: .1em;
+  border-radius: 0.1em;
+  padding: 0.2em 0.25em 0.15em;
 }
+
 .pull-right {
   float: right;
 }
+
 .pull-left {
   float: left;
 }
+
 .di.pull-left {
-  margin-right: .3em;
+  margin-right: 0.3em;
 }
+
 .di.pull-right {
-  margin-left: .3em;
+  margin-left: 0.3em;
 }
+
 .di-spin {
   -webkit-animation: di-spin 2s infinite linear;
   animation: di-spin 2s infinite linear;
 }
+
 @-webkit-keyframes di-spin {
   0% {
     -webkit-transform: rotate(0deg);
@@ -93,6 +109,7 @@
     transform: rotate(359deg);
   }
 }
+
 @keyframes di-spin {
   0% {
     -webkit-transform: rotate(0deg);
@@ -103,36 +120,42 @@
     transform: rotate(359deg);
   }
 }
+
 .di-rotate-90 {
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
-  -webkit-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
   transform: rotate(90deg);
 }
+
 .di-rotate-180 {
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
-  -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
   transform: rotate(180deg);
 }
+
 .di-rotate-270 {
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
-  -webkit-transform: rotate(270deg);
   -ms-transform: rotate(270deg);
+  -webkit-transform: rotate(270deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
   transform: rotate(270deg);
 }
+
 .di-flip-horizontal {
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1);
-  -webkit-transform: scale(-1, 1);
   -ms-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1);
   transform: scale(-1, 1);
 }
+
 .di-flip-vertical {
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);
-  -webkit-transform: scale(1, -1);
   -ms-transform: scale(1, -1);
+  -webkit-transform: scale(1, -1);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);
   transform: scale(1, -1);
 }
+
 :root .di-rotate-90,
 :root .di-rotate-180,
 :root .di-rotate-270,
@@ -140,104 +163,376 @@
 :root .di-flip-vertical {
   filter: none;
 }
+
 .di-stack {
-  position: relative;
   display: inline-block;
-  width: 2em;
   height: 2em;
   line-height: 2em;
+  position: relative;
   vertical-align: middle;
+  width: 2em;
 }
+
 .di-stack-1x,
 .di-stack-2x {
-  position: absolute;
   left: 0;
-  width: 100%;
+  position: absolute;
   text-align: center;
+  width: 100%;
 }
+
 .di-stack-1x {
   line-height: inherit;
 }
+
 .di-stack-2x {
   font-size: 2em;
 }
+
 .di-inverse {
   color: @dl-icons-inverse;
 }
 
-.di-alertme:before { content: @dl-icons-var-alertme; }
-.di-amazon-rds:before { content: @dl-icons-var-amazon-rds; }
-.di-amqp:before { content: @dl-icons-var-amqp; }
-.di-apache:before { content: @dl-icons-var-apache; }
-.di-apple:before { content: @dl-icons-var-apple; }
-.di-arch:before { content: @dl-icons-var-arch; }
-.di-aws:before { content: @dl-icons-var-aws; }
-.di-base:before { content: @dl-icons-var-base; }
-.di-centos:before { content: @dl-icons-var-centos; }
-.di-cloudwatch:before { content: @dl-icons-var-cloudwatch; }
-.di-couchbase:before { content: @dl-icons-var-couchbase; }
-.di-dalmatinerdb:before { content: @dl-icons-var-dalmatinerdb; }
-.di-debian:before { content: @dl-icons-var-debian; }
-.di-default:before { content: @dl-icons-var-default; }
-.di-docker:before { content: @dl-icons-var-docker; }
-.di-dynamodb:before { content: @dl-icons-var-dynamodb; }
-.di-ec2:before { content: @dl-icons-var-ec2; }
-.di-elastic-lb:before { content: @dl-icons-var-elastic-lb; }
-.di-elasticache:before { content: @dl-icons-var-elasticache; }
-.di-elasticsearch:before { content: @dl-icons-var-elasticsearch; }
-.di-exchange:before { content: @dl-icons-var-exchange; }
-.di-filecount:before { content: @dl-icons-var-filecount; }
-.di-freebsd:before { content: @dl-icons-var-freebsd; }
-.di-git:before { content: @dl-icons-var-git; }
-.di-graphite:before { content: @dl-icons-var-graphite; }
-.di-haproxy:before { content: @dl-icons-var-haproxy; }
-.di-iis:before { content: @dl-icons-var-iis; }
-.di-jenkins:before { content: @dl-icons-var-jenkins; }
-.di-linux:before { content: @dl-icons-var-linux; }
-.di-logo-1:before { content: @dl-icons-var-logo-1; }
-.di-logo-2:before { content: @dl-icons-var-logo-2; }
-.di-logo-loop-1:before { content: @dl-icons-var-logo-loop-1; }
-.di-logo-loop-2:before { content: @dl-icons-var-logo-loop-2; }
-.di-logo-loop:before { content: @dl-icons-var-logo-loop; }
-.di-logo:before { content: @dl-icons-var-logo; }
-.di-logstash:before { content: @dl-icons-var-logstash; }
-.di-memcache:before { content: @dl-icons-var-memcache; }
-.di-mongodb:before { content: @dl-icons-var-mongodb; }
-.di-mqtt:before { content: @dl-icons-var-mqtt; }
-.di-mssql:before { content: @dl-icons-var-mssql; }
-.di-mysql:before { content: @dl-icons-var-mysql; }
-.di-nginx:before { content: @dl-icons-var-nginx; }
-.di-nodejs:before { content: @dl-icons-var-nodejs; }
-.di-pagespeed:before { content: @dl-icons-var-pagespeed; }
-.di-ping:before { content: @dl-icons-var-ping; }
-.di-pm2:before { content: @dl-icons-var-pm2; }
-.di-postfix:before { content: @dl-icons-var-postfix; }
-.di-postgres:before { content: @dl-icons-var-postgres; }
-.di-printer:before { content: @dl-icons-var-printer; }
-.di-process:before { content: @dl-icons-var-process; }
-.di-procmem:before { content: @dl-icons-var-procmem; }
-.di-puppet:before { content: @dl-icons-var-puppet; }
-.di-rabbitmq:before { content: @dl-icons-var-rabbitmq; }
-.di-redhat:before { content: @dl-icons-var-redhat; }
-.di-redis:before { content: @dl-icons-var-redis; }
-.di-resque:before { content: @dl-icons-var-resque; }
-.di-riak:before { content: @dl-icons-var-riak; }
-.di-router:before { content: @dl-icons-var-router; }
-.di-rpi:before { content: @dl-icons-var-rpi; }
-.di-salesforce:before { content: @dl-icons-var-salesforce; }
-.di-salt:before { content: @dl-icons-var-salt; }
-.di-service:before { content: @dl-icons-var-service; }
-.di-smartos:before { content: @dl-icons-var-smartos; }
-.di-smb:before { content: @dl-icons-var-smb; }
-.di-solr:before { content: @dl-icons-var-solr; }
-.di-sslcert:before { content: @dl-icons-var-sslcert; }
-.di-statsd:before { content: @dl-icons-var-statsd; }
-.di-supervisor:before { content: @dl-icons-var-supervisor; }
-.di-suse:before { content: @dl-icons-var-suse; }
-.di-switch:before { content: @dl-icons-var-switch; }
-.di-ubuntu:before { content: @dl-icons-var-ubuntu; }
-.di-varnish:before { content: @dl-icons-var-varnish; }
-.di-vcenter:before { content: @dl-icons-var-vcenter; }
-.di-website:before { content: @dl-icons-var-website; }
-.di-windows:before { content: @dl-icons-var-windows; }
-.di-wordpress:before { content: @dl-icons-var-wordpress; }
+.di-alertme:before {
+  content: @dl-icons-var-alertme;
+}
+
+.di-amazon-rds:before {
+  content: @dl-icons-var-amazon-rds;
+}
+
+.di-amqp:before {
+  content: @dl-icons-var-amqp;
+}
+
+.di-apache:before {
+  content: @dl-icons-var-apache;
+}
+
+.di-apple:before {
+  content: @dl-icons-var-apple;
+}
+
+.di-arch:before {
+  content: @dl-icons-var-arch;
+}
+
+.di-aws:before {
+  content: @dl-icons-var-aws;
+}
+
+.di-base:before {
+  content: @dl-icons-var-base;
+}
+
+.di-centos:before {
+  content: @dl-icons-var-centos;
+}
+
+.di-cloudfront:before {
+  content: @dl-icons-var-cloudfront;
+}
+
+.di-cloudwatch:before {
+  content: @dl-icons-var-cloudwatch;
+}
+
+.di-couchbase:before {
+  content: @dl-icons-var-couchbase;
+}
+
+.di-dalmatinerdb:before {
+  content: @dl-icons-var-dalmatinerdb;
+}
+
+.di-debian:before {
+  content: @dl-icons-var-debian;
+}
+
+.di-default:before {
+  content: @dl-icons-var-default;
+}
+
+.di-docker:before {
+  content: @dl-icons-var-docker;
+}
+
+.di-dynamodb:before {
+  content: @dl-icons-var-dynamodb;
+}
+
+.di-ec2:before {
+  content: @dl-icons-var-ec2;
+}
+
+.di-elastic-lb:before {
+  content: @dl-icons-var-elastic-lb;
+}
+
+.di-elasticache:before {
+  content: @dl-icons-var-elasticache;
+}
+
+.di-elasticsearch:before {
+  content: @dl-icons-var-elasticsearch;
+}
+
+.di-exchange:before {
+  content: @dl-icons-var-exchange;
+}
+
+.di-filecount:before {
+  content: @dl-icons-var-filecount;
+}
+
+.di-freebsd:before {
+  content: @dl-icons-var-freebsd;
+}
+
+.di-git:before {
+  content: @dl-icons-var-git;
+}
+
+.di-graphite:before {
+  content: @dl-icons-var-graphite;
+}
+
+.di-haproxy:before {
+  content: @dl-icons-var-haproxy;
+}
+
+.di-iis:before {
+  content: @dl-icons-var-iis;
+}
+
+.di-java:before {
+  content: @dl-icons-var-java;
+}
+
+.di-jenkins:before {
+  content: @dl-icons-var-jenkins;
+}
+
+.di-kinesis:before {
+  content: @dl-icons-var-kinesis;
+}
+
+.di-lambda:before {
+  content: @dl-icons-var-lambda;
+}
+
+.di-linux:before {
+  content: @dl-icons-var-linux;
+}
+
+.di-logo-1:before {
+  content: @dl-icons-var-logo-1;
+}
+
+.di-logo-2:before {
+  content: @dl-icons-var-logo-2;
+}
+
+.di-logo-loop-1:before {
+  content: @dl-icons-var-logo-loop-1;
+}
+
+.di-logo-loop-2:before {
+  content: @dl-icons-var-logo-loop-2;
+}
+
+.di-logo-loop:before {
+  content: @dl-icons-var-logo-loop;
+}
+
+.di-logo:before {
+  content: @dl-icons-var-logo;
+}
+
+.di-logstash:before {
+  content: @dl-icons-var-logstash;
+}
+
+.di-memcache:before {
+  content: @dl-icons-var-memcache;
+}
+
+.di-mongodb:before {
+  content: @dl-icons-var-mongodb;
+}
+
+.di-mqtt:before {
+  content: @dl-icons-var-mqtt;
+}
+
+.di-mssql:before {
+  content: @dl-icons-var-mssql;
+}
+
+.di-mysql:before {
+  content: @dl-icons-var-mysql;
+}
+
+.di-nginx:before {
+  content: @dl-icons-var-nginx;
+}
+
+.di-nodejs:before {
+  content: @dl-icons-var-nodejs;
+}
+
+.di-pagespeed:before {
+  content: @dl-icons-var-pagespeed;
+}
+
+.di-ping:before {
+  content: @dl-icons-var-ping;
+}
+
+.di-pm2:before {
+  content: @dl-icons-var-pm2;
+}
+
+.di-postfix:before {
+  content: @dl-icons-var-postfix;
+}
+
+.di-postgres:before {
+  content: @dl-icons-var-postgres;
+}
+
+.di-printer:before {
+  content: @dl-icons-var-printer;
+}
+
+.di-process:before {
+  content: @dl-icons-var-process;
+}
+
+.di-procmem:before {
+  content: @dl-icons-var-procmem;
+}
+
+.di-puppet:before {
+  content: @dl-icons-var-puppet;
+}
+
+.di-rabbitmq:before {
+  content: @dl-icons-var-rabbitmq;
+}
+
+.di-redhat:before {
+  content: @dl-icons-var-redhat;
+}
+
+.di-redis:before {
+  content: @dl-icons-var-redis;
+}
+
+.di-redshift:before {
+  content: @dl-icons-var-redshift;
+}
+
+.di-resque:before {
+  content: @dl-icons-var-resque;
+}
+
+.di-riak:before {
+  content: @dl-icons-var-riak;
+}
+
+.di-router:before {
+  content: @dl-icons-var-router;
+}
+
+.di-rpi:before {
+  content: @dl-icons-var-rpi;
+}
+
+.di-s3:before {
+  content: @dl-icons-var-s3;
+}
+
+.di-salesforce:before {
+  content: @dl-icons-var-salesforce;
+}
+
+.di-salt:before {
+  content: @dl-icons-var-salt;
+}
+
+.di-service:before {
+  content: @dl-icons-var-service;
+}
+
+.di-ses:before {
+  content: @dl-icons-var-ses;
+}
+
+.di-smartos:before {
+  content: @dl-icons-var-smartos;
+}
+
+.di-smb:before {
+  content: @dl-icons-var-smb;
+}
+
+.di-sns:before {
+  content: @dl-icons-var-sns;
+}
+
+.di-solr:before {
+  content: @dl-icons-var-solr;
+}
+
+.di-sqs:before {
+  content: @dl-icons-var-sqs;
+}
+
+.di-sslcert:before {
+  content: @dl-icons-var-sslcert;
+}
+
+.di-statsd:before {
+  content: @dl-icons-var-statsd;
+}
+
+.di-supervisor:before {
+  content: @dl-icons-var-supervisor;
+}
+
+.di-suse:before {
+  content: @dl-icons-var-suse;
+}
+
+.di-switch:before {
+  content: @dl-icons-var-switch;
+}
+
+.di-tomcat:before {
+  content: @dl-icons-var-tomcat;
+}
+
+.di-ubuntu:before {
+  content: @dl-icons-var-ubuntu;
+}
+
+.di-varnish:before {
+  content: @dl-icons-var-varnish;
+}
+
+.di-vcenter:before {
+  content: @dl-icons-var-vcenter;
+}
+
+.di-website:before {
+  content: @dl-icons-var-website;
+}
+
+.di-windows:before {
+  content: @dl-icons-var-windows;
+}
+
+.di-wordpress:before {
+  content: @dl-icons-var-wordpress;
+}
