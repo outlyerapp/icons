@@ -1,21 +1,21 @@
 /*!
- *  DL-Icons v0.2.3
+ *  DL-Icons v0.3.0
  *  (c) Dataloop.IO - http://dataloop.github.io/icons/
  */
 @font-face {
-  font-family: "DL-Icons";
+  font-family: 'DL-Icons';
   src: url('../fonts/DL-Icons.eot');
   src: url('../fonts/DL-Icons.eot?#iefix') format('eot'), url('../fonts/DL-Icons.woff') format('woff'), url('../fonts/DL-Icons.ttf') format('truetype'), url('../fonts/DL-Icons.svg#DL-Icons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 .di {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
   display: inline-block;
-  font: normal normal normal 14px/1 "DL-Icons";
+  font: normal normal normal 14px/1 'DL-Icons';
   font-size: inherit;
   text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 .di-lg {
   font-size: 1.33333333em;
@@ -35,31 +35,31 @@
   font-size: 5em;
 }
 .di-fw {
-  width: 1.28571429em;
   text-align: center;
+  width: 1.28571429em;
 }
 .di-ul {
-  padding-left: 0;
-  margin-left: 2.14285714em;
   list-style-type: none;
+  margin-left: 2.14285714em;
+  padding-left: 0;
 }
 .di-ul > li {
   position: relative;
 }
 .di-li {
-  position: absolute;
   left: -2.14285714em;
-  width: 2.14285714em;
-  top: 0.14285714em;
+  position: absolute;
   text-align: center;
+  top: 0.14285714em;
+  width: 2.14285714em;
 }
 .di-li.di-lg {
   left: -1.85714286em;
 }
 .di-border {
-  padding: .2em .25em .15em;
   border: solid 0.08em #eeeeee;
-  border-radius: .1em;
+  border-radius: 0.1em;
+  padding: 0.2em 0.25em 0.15em;
 }
 .pull-right {
   float: right;
@@ -68,10 +68,10 @@
   float: left;
 }
 .di.pull-left {
-  margin-right: .3em;
+  margin-right: 0.3em;
 }
 .di.pull-right {
-  margin-left: .3em;
+  margin-left: 0.3em;
 }
 .di-spin {
   -webkit-animation: di-spin 2s infinite linear;
@@ -98,33 +98,33 @@
   }
 }
 .di-rotate-90 {
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
-  -webkit-transform: rotate(90deg);
   -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
   transform: rotate(90deg);
 }
 .di-rotate-180 {
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
-  -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
   transform: rotate(180deg);
 }
 .di-rotate-270 {
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
-  -webkit-transform: rotate(270deg);
   -ms-transform: rotate(270deg);
+  -webkit-transform: rotate(270deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
   transform: rotate(270deg);
 }
 .di-flip-horizontal {
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1);
-  -webkit-transform: scale(-1, 1);
   -ms-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1);
   transform: scale(-1, 1);
 }
 .di-flip-vertical {
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);
-  -webkit-transform: scale(1, -1);
   -ms-transform: scale(1, -1);
+  -webkit-transform: scale(1, -1);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);
   transform: scale(1, -1);
 }
 :root .di-rotate-90,
@@ -135,19 +135,19 @@
   filter: none;
 }
 .di-stack {
-  position: relative;
   display: inline-block;
-  width: 2em;
   height: 2em;
   line-height: 2em;
+  position: relative;
   vertical-align: middle;
+  width: 2em;
 }
 .di-stack-1x,
 .di-stack-2x {
-  position: absolute;
   left: 0;
-  width: 100%;
+  position: absolute;
   text-align: center;
+  width: 100%;
 }
 .di-stack-1x {
   line-height: inherit;
@@ -159,230 +159,260 @@
   color: #ffffff;
 }
 .di-alertme:before {
-  content: "\E001";
+  content: '\E001';
 }
 .di-amazon-rds:before {
-  content: "\E002";
+  content: '\E002';
 }
 .di-amqp:before {
-  content: "\E003";
+  content: '\E003';
 }
 .di-apache:before {
-  content: "\E004";
+  content: '\E004';
 }
 .di-apple:before {
-  content: "\E005";
+  content: '\E005';
 }
 .di-arch:before {
-  content: "\E006";
+  content: '\E006';
 }
 .di-aws:before {
-  content: "\E007";
+  content: '\E007';
 }
 .di-base:before {
-  content: "\E008";
+  content: '\E008';
 }
 .di-centos:before {
-  content: "\E009";
+  content: '\E009';
+}
+.di-cloudfront:before {
+  content: '\E00A';
 }
 .di-cloudwatch:before {
-  content: "\E00A";
+  content: '\E00B';
 }
 .di-couchbase:before {
-  content: "\E00B";
+  content: '\E00C';
 }
 .di-dalmatinerdb:before {
-  content: "\E00C";
+  content: '\E00D';
 }
 .di-debian:before {
-  content: "\E00D";
+  content: '\E00E';
 }
 .di-default:before {
-  content: "\E00E";
+  content: '\E00F';
 }
 .di-docker:before {
-  content: "\E00F";
+  content: '\E010';
 }
 .di-dynamodb:before {
-  content: "\E010";
+  content: '\E011';
 }
 .di-ec2:before {
-  content: "\E011";
+  content: '\E012';
 }
 .di-elastic-lb:before {
-  content: "\E012";
+  content: '\E013';
 }
 .di-elasticache:before {
-  content: "\E013";
+  content: '\E014';
 }
 .di-elasticsearch:before {
-  content: "\E014";
+  content: '\E015';
 }
 .di-exchange:before {
-  content: "\E015";
+  content: '\E016';
 }
 .di-filecount:before {
-  content: "\E016";
+  content: '\E017';
 }
 .di-freebsd:before {
-  content: "\E017";
+  content: '\E018';
 }
 .di-git:before {
-  content: "\E018";
+  content: '\E019';
 }
 .di-graphite:before {
-  content: "\E019";
+  content: '\E01A';
 }
 .di-haproxy:before {
-  content: "\E01A";
+  content: '\E01B';
 }
 .di-iis:before {
-  content: "\E01B";
+  content: '\E01C';
+}
+.di-java:before {
+  content: '\E01D';
 }
 .di-jenkins:before {
-  content: "\E01C";
+  content: '\E01E';
+}
+.di-kinesis:before {
+  content: '\E01F';
+}
+.di-lambda:before {
+  content: '\E020';
 }
 .di-linux:before {
-  content: "\E01D";
+  content: '\E021';
 }
 .di-logo-1:before {
-  content: "\E01E";
+  content: '\E022';
 }
 .di-logo-2:before {
-  content: "\E01F";
+  content: '\E023';
 }
 .di-logo-loop-1:before {
-  content: "\E020";
+  content: '\E024';
 }
 .di-logo-loop-2:before {
-  content: "\E021";
+  content: '\E025';
 }
 .di-logo-loop:before {
-  content: "\E022";
+  content: '\E026';
 }
 .di-logo:before {
-  content: "\E023";
+  content: '\E027';
 }
 .di-logstash:before {
-  content: "\E024";
+  content: '\E028';
 }
 .di-memcache:before {
-  content: "\E025";
+  content: '\E029';
 }
 .di-mongodb:before {
-  content: "\E026";
+  content: '\E02A';
 }
 .di-mqtt:before {
-  content: "\E027";
+  content: '\E02B';
 }
 .di-mssql:before {
-  content: "\E028";
+  content: '\E02C';
 }
 .di-mysql:before {
-  content: "\E029";
+  content: '\E02D';
 }
 .di-nginx:before {
-  content: "\E02A";
+  content: '\E02E';
 }
 .di-nodejs:before {
-  content: "\E02B";
+  content: '\E02F';
 }
 .di-pagespeed:before {
-  content: "\E02C";
+  content: '\E030';
 }
 .di-ping:before {
-  content: "\E02D";
+  content: '\E031';
 }
 .di-pm2:before {
-  content: "\E02E";
+  content: '\E032';
 }
 .di-postfix:before {
-  content: "\E02F";
+  content: '\E033';
 }
 .di-postgres:before {
-  content: "\E030";
+  content: '\E034';
 }
 .di-printer:before {
-  content: "\E031";
+  content: '\E035';
 }
 .di-process:before {
-  content: "\E032";
+  content: '\E036';
 }
 .di-procmem:before {
-  content: "\E033";
+  content: '\E037';
 }
 .di-puppet:before {
-  content: "\E034";
+  content: '\E038';
 }
 .di-rabbitmq:before {
-  content: "\E035";
+  content: '\E039';
 }
 .di-redhat:before {
-  content: "\E036";
+  content: '\E03A';
 }
 .di-redis:before {
-  content: "\E037";
+  content: '\E03B';
+}
+.di-redshift:before {
+  content: '\E03C';
 }
 .di-resque:before {
-  content: "\E038";
+  content: '\E03D';
 }
 .di-riak:before {
-  content: "\E039";
+  content: '\E03E';
 }
 .di-router:before {
-  content: "\E03A";
+  content: '\E03F';
 }
 .di-rpi:before {
-  content: "\E03B";
+  content: '\E040';
+}
+.di-s3:before {
+  content: '\E041';
 }
 .di-salesforce:before {
-  content: "\E03C";
+  content: '\E042';
 }
 .di-salt:before {
-  content: "\E03D";
+  content: '\E043';
 }
 .di-service:before {
-  content: "\E03E";
+  content: '\E044';
+}
+.di-ses:before {
+  content: '\E045';
 }
 .di-smartos:before {
-  content: "\E03F";
+  content: '\E046';
 }
 .di-smb:before {
-  content: "\E040";
+  content: '\E047';
+}
+.di-sns:before {
+  content: '\E048';
 }
 .di-solr:before {
-  content: "\E041";
+  content: '\E049';
+}
+.di-sqs:before {
+  content: '\E04A';
 }
 .di-sslcert:before {
-  content: "\E042";
+  content: '\E04B';
 }
 .di-statsd:before {
-  content: "\E043";
+  content: '\E04C';
 }
 .di-supervisor:before {
-  content: "\E044";
+  content: '\E04D';
 }
 .di-suse:before {
-  content: "\E045";
+  content: '\E04E';
 }
 .di-switch:before {
-  content: "\E046";
+  content: '\E04F';
+}
+.di-tomcat:before {
+  content: '\E050';
 }
 .di-ubuntu:before {
-  content: "\E047";
+  content: '\E051';
 }
 .di-varnish:before {
-  content: "\E048";
+  content: '\E052';
 }
 .di-vcenter:before {
-  content: "\E049";
+  content: '\E053';
 }
 .di-website:before {
-  content: "\E04A";
+  content: '\E054';
 }
 .di-windows:before {
-  content: "\E04B";
+  content: '\E055';
 }
 .di-wordpress:before {
-  content: "\E04C";
+  content: '\E056';
 }
