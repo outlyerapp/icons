@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="560px" height="560px" viewBox="0 0 560 560" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: sketchtool 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
-    <title>elasticache</title>
-    <desc>Created with sketchtool.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="elasticache" fill="#000000">
+<svg width="560px" height="560px" viewBox="0 0 560 560" version="1.1" xmlns="http://www.w3.org/2000/svg" >
+    
+    
+    
+    
+    <g id="Page-1" stroke="none" stroke-width="1"  fill-rule="evenodd">
+        <g id="elasticache" >
             <path d="M364.675,351.163174 L480.536111,365.548611 L480.536111,422.131944 L279.8,522.5 L79.0638889,422.131944 L79.0638889,365.548611 L194.925,351.163174 L194.925,354.097222 L279.8,366.895833 L364.675,354.097222 L364.675,351.163174 L364.675,351.163174 Z M279.8,353.423611 L194.925,340.625 L194.925,220.722222 L279.8,207.923611 L364.675,220.722222 L364.675,340.625 L279.8,353.423611 L279.8,353.423611 Z M213.652736,204.425953 L94.9953306,189.693337 L79.0638889,194.451389 L79.0638889,137.868056 L279.8,37.5 L480.536111,137.868056 L480.536111,194.451389 L464.604669,189.693337 L345.947264,204.425953 L279.8,194.451389 L213.652736,204.425953 L213.652736,204.425953 Z" id="Page-1"></path>
         </g>
     </g>

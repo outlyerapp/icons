@@ -17,19 +17,26 @@ gulp.task('build', function () {
 
     gulp.src('src/' + sketchFile + '.sketch')
         .pipe(sketch({
-          export: 'artboards',
-          formats: 'svg'
+            export: 'artboards',
+            formats: 'svg',
+            clean: true,
         }))
         .pipe(gulp.dest('dist/svg/'))
         .pipe(iconfont({
+            formats: ['ttf', 'eot', 'woff', 'woff2', 'svg'],
             fontName: fontName,
             fontHeight: 460,
             fontWidth: 460
         }))
-        .on('codepoints', function (codepoints) {
+        .on('glyphs', function (glyphs) {
 
             var options = {
-                glyphs: codepoints,
+                glyphs: glyphs.map(function (glyph) {
+                    return {
+                        name: glyph.name,
+                        codepoint: glyph.unicode[0].charCodeAt(0),
+                    };
+                }),
                 fontName: fontName,
                 fontNameLower: fontName.toLowerCase(),
                 fontPath: '../fonts/',

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="560px" height="560px" viewBox="0 0 560 560" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: sketchtool 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
-    <title>windows</title>
-    <desc>Created with sketchtool.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="windows" fill="#000000">
+<svg width="560px" height="560px" viewBox="0 0 560 560" version="1.1" xmlns="http://www.w3.org/2000/svg" >
+    
+    
+    
+    
+    <g id="Page-1" stroke="none" stroke-width="1"  fill-rule="evenodd">
+        <g id="windows" >
             <g id="Group" transform="translate(60.000000, 60.000000)">
                 <path d="M441.021636,441.160595 L200.117273,407.578573 L200.117273,228.689982 L441.021636,228.689982 L441.021636,441.16085 L441.021636,441.160595 Z M179.023091,404.637893 L0.276181818,379.720628 L0.276181818,228.689599 L179.023091,228.689599 L179.023091,404.637766 L179.023091,404.637893 Z M0.276181818,207.565699 L0.276181818,60.3201329 L179.023091,35.7669481 L179.023091,207.565763 L0.276181818,207.565763 L0.276181818,207.565699 Z M200.116636,207.565699 L200.116636,32.8697948 L441.021,-0.221455925 L441.021,207.566018 L200.116636,207.566018 L200.116636,207.565699 Z" id="Shape"></path>
             </g>
